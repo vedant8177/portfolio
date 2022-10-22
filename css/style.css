@@ -151,7 +151,7 @@ body {
         font-size: 4.5rem;
     }
     .homepage .homepage_dev_profession {
-        font-size: 4/5rem;
+        font-size: 4.5rem;
     }
     .homepage .homepage_dev_intro {
         width: 65%;
@@ -164,6 +164,9 @@ body {
 }
 
 @media screen and (max-width: 440px) {
+    .container {
+        width: 90%;
+    }
     #navbar {
         margin: 0 auto;
         padding: 10px 40px;
