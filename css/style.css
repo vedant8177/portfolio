@@ -165,7 +165,7 @@ body {
 
 @media screen and (max-width: 440px) {
     .container {
-        width: 90%;
+        width: 85%;
     }
     #navbar {
         margin: 0 auto;
