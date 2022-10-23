@@ -223,7 +223,7 @@ body {
 }
 
 .about_left {
-    width: 50%;
+    width: 5 0%;
     color: var(--txt);
     font-family: var(--tirtiary-font);
     display: flex;
@@ -313,6 +313,35 @@ body {
 .disable {
     filter: grayscale(100%);
     pointer-events: none;
+}
+
+/* contact */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--fg-color);
+    font-family: var(--tirtiary-font);
+    opacity: 0.9;
+    text-align: center;
+    padding: 30px;
+}
+
+.contact .intro {
+    margin: 10px 0;
+}
+
+.contact .email {
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+}
+
+.contact .end {
+    margin: 10px 0;
 }
 
 @media screen and (max-width: 768px) {
