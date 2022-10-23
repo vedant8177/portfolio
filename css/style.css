@@ -152,7 +152,7 @@ body {
 /* Homepage Container */
 
 .homepage {
-    height: 100vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
