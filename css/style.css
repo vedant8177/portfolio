@@ -204,7 +204,7 @@ body {
     font-family: var(--primary-color);
     margin-top: 30px;
     cursor: pointer;
-    transition: .5s ease-in ;
+    transition: .2s ease ;
 }
 
 .homepage .homepage_btn:hover  {
@@ -218,7 +218,8 @@ body {
 .about {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+    padding: 50px 0;
 }
 
 .about_left {
@@ -274,13 +275,15 @@ body {
 .projects {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
 .projects .card {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     background: var(--bg-shade-color);
-    padding: 30px;
+    padding: 20px 30px;
     margin: 10px;
     font-family: var(--tirtiary-font);
     color: var(--fg-color);
@@ -294,14 +297,6 @@ body {
     color: var(--fg-color);
     opacity: .9;
     font-size: .9rem;
-    margin-bottom: 25px;
-}
-
-.projects .card .tech {
-    font-family: var(--secondary-font);
-    opacity: .7;
-    font-weight: 100;
-    font-size: .9rem;
     margin-bottom: 20px;
 }
 
@@ -312,7 +307,7 @@ body {
 }
 
 .projects .card .btn .btn_icon {
-    width: 35px;
+    width: 30px;
 }
 
 @media screen and (max-width: 768px) {
