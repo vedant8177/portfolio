@@ -68,7 +68,7 @@ body {
     background: transparent;
     border: none;
     cursor: pointer;
-    transition: .2s all ease-in;
+    transition: .1s all ease-in;
     display: none;
 }
 
@@ -95,7 +95,7 @@ body {
     justify-content: center;
     align-items: center;
     /* height: 300px; */
-    padding: 25px 0;
+    padding: 40px 0;
     transition: all .5s ease;
     transform: translateY(-500px);
 }
@@ -107,7 +107,7 @@ body {
 
 .hamburger_list li {
     margin-bottom: 25px;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .hamburger_list li .hamburger_list_items {
@@ -124,6 +124,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: transform 0s ease;
+    margin-top: 40px;
 }
 
 .hamburger_close:active {
@@ -186,6 +187,24 @@ body {
     color: var(--bg-color);
 }
 
+/* about */
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_left {
+    width: 60%;
+    color: var(--txt);
+}
+
+.about_right {
+}
+
+.about_right .dev_profile {
+    width: 150px;
+}
 
 @media screen and (max-width: 768px) {
     #navbar .nav_list {
@@ -203,6 +222,16 @@ body {
     .homepage .homepage_dev_intro {
         width: 65%;
         line-height: 1.3rem;
+    }
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_left {
+        width: 100%;
+    }
+    .about_right .dev_profile {
+        margin-top: 25px;
     }
 }
 
