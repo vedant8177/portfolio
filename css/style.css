@@ -162,7 +162,7 @@ body {
     margin-top: 10px;
     color: var(--txt);
     width: 50%;
-    font-weight: 500;
+    /* font-weight: 500; */
     font-family: var(--tirtiary-font);
     line-height: 1.5rem;
 }
@@ -197,7 +197,7 @@ body {
 .about_left {
     width: 60%;
     color: var(--txt);
-    font-family: var(--secondary-font);
+    font-family: var(--tirtiary-font);
 }
 
 .about_right {
