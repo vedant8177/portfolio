@@ -357,16 +357,16 @@ body {
 }
 
 #footer .copyright {
-    color: var(--primary-color);
+    color: var(--fg-color);
     font-weight: 600;
+    opacity: .9;
 }
 
 #footer .developer {
     margin-top: 10px;
     color: var(--fg-color);
-    font-weight: 600;
     font-size: .9rem;
-    opacity: .8;
+    opacity: .7;
 }
 
 @media screen and (max-width: 768px) {
