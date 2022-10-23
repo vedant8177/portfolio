@@ -310,6 +310,11 @@ body {
     width: 30px;
 }
 
+.disable {
+    filter: grayscale(100%);
+    pointer-events: none;
+}
+
 @media screen and (max-width: 768px) {
     #navbar .nav_list {
         display: none;
