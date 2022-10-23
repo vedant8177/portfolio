@@ -203,7 +203,7 @@ body {
 }
 
 .about_right .dev_profile {
-    width: 150px;
+    width: 200px;
 }
 
 @media screen and (max-width: 768px) {
