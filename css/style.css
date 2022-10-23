@@ -428,4 +428,7 @@ body {
     .about {
         padding: 20px 0;
     }
+    #contact {
+        margin-bottom: 20px;
+    }
 }
