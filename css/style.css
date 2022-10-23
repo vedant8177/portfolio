@@ -198,6 +198,7 @@ body {
     width: 60%;
     color: var(--txt);
     font-family: var(--tirtiary-font);
+    line-height: 1.3rem;
 }
 
 .about_right {
