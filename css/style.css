@@ -9,6 +9,10 @@
     --primary-color: #08D9D6;
 }
 
+html, body {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -214,16 +218,53 @@ body {
 .about {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .about_left {
     width: 60%;
     color: var(--txt);
     font-family: var(--tirtiary-font);
+    display: flex;
+    align-items: center;
 }
 
 .about_right .dev_profile {
     width: 250px;
+}
+
+/* services */
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    background: var(--bg-shade-color);
+    padding: 30px;
+    margin: 10px;
+    font-family: var(--tirtiary-font);
+    color: var(--fg-color);
+}
+
+.card .icon {
+    margin-bottom: 20px;
+}
+
+.card .title {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.card .desc {
+    color: var(--fg-color);
+    opacity: .9;
+    /* font-size: ; */
 }
 
 @media screen and (max-width: 768px) {
