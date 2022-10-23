@@ -223,7 +223,7 @@ body {
 }
 
 .about_left {
-    width: 60%;
+    width: 50%;
     color: var(--txt);
     font-family: var(--tirtiary-font);
     display: flex;
