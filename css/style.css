@@ -197,13 +197,14 @@ body {
 .about_left {
     width: 60%;
     color: var(--txt);
+    font-family: var(--secondary-font);
 }
 
 .about_right {
 }
 
 .about_right .dev_profile {
-    width: 200px;
+    width: 250px;
 }
 
 @media screen and (max-width: 768px) {
