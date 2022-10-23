@@ -2,7 +2,8 @@ const menu = document.getElementsByClassName("navbar_btn")[0];
 const close = document.getElementsByClassName("hamburger_close")[0];
 const hamburger = document.getElementsByClassName("hamburger")[0];
 const listItem = document.querySelectorAll(".hamburger_list_items");
-
+const copyright = document.querySelector("#year");
+const d = new Date();
 
 close.addEventListener("click", () => {
     hamburger.style.transform = "translateY(-500px)";
@@ -17,3 +18,5 @@ listItem.forEach(link => {
         hamburger.style.transform = "translateY(-500px)";
     })
 })
+
+copyright.innerHTML = d.getFullYear();

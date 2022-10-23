@@ -328,6 +328,7 @@ body {
     font-family: var(--tirtiary-font);
     opacity: 0.9;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .contact .intro {
@@ -346,7 +347,9 @@ body {
 
 #footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
     background: var(--bg-shade-color);
     padding: 20px 0;
@@ -356,6 +359,14 @@ body {
 #footer .copyright {
     color: var(--primary-color);
     font-weight: 600;
+}
+
+#footer .developer {
+    margin-top: 10px;
+    color: var(--fg-color);
+    font-weight: 600;
+    font-size: .9rem;
+    opacity: .8;
 }
 
 @media screen and (max-width: 768px) {

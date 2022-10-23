@@ -19,22 +19,22 @@
     <nav id="navbar">
         <img src="./assets/nav-logo.png" alt="" class="nav_logo">
         <ul class="nav_list">
-            <li> <a href="#" class="nav_list_items">Home</a></li>
+            <li> <a href="#homepage" class="nav_list_items">Home</a></li>
             <li> <a href="#about" class="nav_list_items">About</a></li>
-            <li> <a href="#" class="nav_list_items">Services</a></li>
-            <li> <a href="#" class="nav_list_items">Work</a></li>
-            <li> <a href="#" class="nav_list_items">Contact</a></li>
+            <li> <a href="#services" class="nav_list_items">Services</a></li>
+            <li> <a href="#work" class="nav_list_items">Work</a></li>
+            <li> <a href="#contact" class="nav_list_items">Contact</a></li>
         </ul>
         <button class="navbar_btn"><img src="./assets/menu.png" alt="" class="btn_icon"></button>
     </nav>
     <div class="hamburger_container">
         <div class="hamburger">
             <ul class="hamburger_list">
-                <li class="link_shell"><a href="#" class="hamburger_list_items">Home</a></li>
+                <li class="link_shell"><a href="#homepage" class="hamburger_list_items">Home</a></li>
                 <li class="link_shell"><a href="#about" class="hamburger_list_items">About</a></li>
-                <li class="link_shell"><a href="#" class="hamburger_list_items">Services</a></li>
-                <li class="link_shell"><a href="#" class="hamburger_list_items">Work</a></li>
-                <li class="link_shell"><a href="#" class="hamburger_list_items">Contact</a></li>
+                <li class="link_shell"><a href="#services" class="hamburger_list_items">Services</a></li>
+                <li class="link_shell"><a href="#work" class="hamburger_list_items">Work</a></li>
+                <li class="link_shell"><a href="#contact" class="hamburger_list_items">Contact</a></li>
             </ul>
             <button class="hamburger_close">
                 <img src="./assets/close.png" alt="" class="nav_logo">
@@ -42,7 +42,7 @@
         </div>
     </div>
 
-    <div class="homepage container">
+    <div id="homepage" class="homepage container">
         <p class="homepage_dev_greetings">
             Hello, My name is
         </p>
@@ -87,7 +87,7 @@
     </div>
 
     <div class="container">
-        <p id="about" class="heading">
+        <p id="services" class="heading">
             Services
         </p>
     </div>
@@ -112,7 +112,7 @@
     </div>
 
     <div class="container">
-        <p id="about" class="heading">
+        <p id="work" class="heading">
             Work
         </p>
     </div>
@@ -190,7 +190,7 @@
     </div>
 
     <div class="container">
-        <p id="about" class="heading">
+        <p id="contact" class="heading">
             Contact
         </p>
     </div>
@@ -208,7 +208,10 @@
     </div>
 
     <footer id="footer">
-        <p class="copyright">&COPY; COPYRIGHT 2022 VEDANT | ALL RIGHTS RESERVED</p>
+        <p class="copyright">&COPY; Copyright 2019-<span id="year"></span> Vedant | All Rights Reserved</p>
+        <p class="developer">
+            Designed & Developed by Vedant
+        </p>
     </footer>
     <script src="./js/app.js"></script>
 </body>
