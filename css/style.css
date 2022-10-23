@@ -83,7 +83,7 @@ body {
     color: var(--fg-color);
     font-family: var(--tirtiary-font);
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     position: relative;
 }
 
@@ -149,10 +149,14 @@ body {
     transform: scale(0.9);
 }
 
+.hamburger_close img {
+    width: 40px;
+}
+
 /* Homepage Container */
 
 .homepage {
-    height: 95vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -258,6 +262,9 @@ body {
     #navbar {
         margin: 0 auto;
         padding: 10px 40px;
+    }
+    .homepage {
+        height: 95vh;
     }
     .homepage .homepage_dev_name {
         font-size: 3rem;
