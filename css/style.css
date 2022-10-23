@@ -264,7 +264,7 @@ body {
 .card .desc {
     color: var(--fg-color);
     opacity: .9;
-    /* font-size: ; */
+    font-size: .9rem;
 }
 
 @media screen and (max-width: 768px) {
