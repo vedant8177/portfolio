@@ -256,9 +256,9 @@ body {
 }
 
 .card .title {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 1.3rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .card .desc {
