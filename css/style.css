@@ -77,7 +77,25 @@ body {
 }
 
 /* heading */
+.heading {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: var(--fg-color);
+    font-family: var(--tirtiary-font);
+    font-weight: 600;
+    margin-bottom: 20px;
+    position: relative;
+}
 
+.heading::after {
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 3px;
+    background:linear-gradient(45deg, var(--txt), var(--bg-color));
+    bottom: 0;
+    left: 0;
+}
 
 /* hamburger menu */
 .hamburger_container {
@@ -198,10 +216,6 @@ body {
     width: 60%;
     color: var(--txt);
     font-family: var(--tirtiary-font);
-    line-height: 1.3rem;
-}
-
-.about_right {
 }
 
 .about_right .dev_profile {
@@ -255,6 +269,6 @@ body {
         width: 80%;
     }
     .homepage_dev_greetings {
-        margin-top: 40px;
+        margin-top: 30px;
     }
 }
