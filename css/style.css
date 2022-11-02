@@ -354,13 +354,14 @@ body {
 }
 
 #social {
+    margin-top: 10px;
     display: flex;
     list-style-type: none;
 }
 
 #social .social_items {
     margin: 0 10px;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 #social .social_items a {
@@ -455,7 +456,13 @@ body {
     .about {
         padding: 20px 0;
     }
+    .contact {
+        width: 70%;
+    }
     #contact {
         margin-bottom: 20px;
+    }
+    .copyright, .developer {
+        font-size: .7rem;
     }
 }
