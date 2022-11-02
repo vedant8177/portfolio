@@ -51,6 +51,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: var(--tirtiary-font);
 }
 
 #navbar .nav_list li {
@@ -193,7 +194,7 @@ body {
     line-height: 1.5rem;
 }
 
-.homepage .homepage_btn  {
+.homepage .homepage_btn {
     padding: 10px;
     width: 100px;
     background: transparent;
@@ -205,12 +206,19 @@ body {
     margin-top: 30px;
     cursor: pointer;
     transition: .2s ease ;
+    text-align: center;
+    text-decoration: none;
 }
 
 .homepage .homepage_btn:hover  {
     background: var(--primary-color);
     border-radius: 50px;
     color: var(--bg-color);
+}
+
+.homepage_btn a {
+    text-decoration: none;
+    color: var(--primary-color);
 }
 
 /* about */
@@ -343,6 +351,25 @@ body {
 
 .contact .end {
     margin: 10px 0;
+}
+
+#social {
+    display: flex;
+    list-style-type: none;
+}
+
+#social .social_items {
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+#social .social_items a {
+    text-decoration: none;
+    color: var(--fg-color);
+}
+
+#social .social_items a:hover {
+    color: var(--primary-color);
 }
 
 #footer {
