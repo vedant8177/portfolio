@@ -360,7 +360,7 @@ body {
 }
 
 #social .social_items {
-    margin: 0 10px;
+    margin: 0 15px;
     font-size: 1.5rem;
 }
 
@@ -463,7 +463,10 @@ body {
     #contact {
         margin-bottom: 20px;
     }
-    .copyright, .developer {
+    .copyright {
+        font-size: .7rem;
+    }
+    #footer .developer {
         font-size: .7rem;
     }
 }
