@@ -424,6 +424,7 @@ body {
     }
     .about_right .dev_profile {
         margin-top: 25px;
+        width: 200px;
     }
 }
 
