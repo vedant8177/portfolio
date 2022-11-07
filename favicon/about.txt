@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Amita
+- Font Author: Copyright (c) 2014, Eduardo Rodriguez Tunni. Copyright (c) 2000, Modular Infotech, Pune, INDIA. All rights reserved. Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com). All rights reserved.
+- Font Source: http://fonts.gstatic.com/s/amita/v16/HhyXU5si9Om7PTHTLtCCOopCTKkI.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
