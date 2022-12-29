@@ -379,6 +379,7 @@ body {
     flex-direction: column;
     font-family: var(--primary-color);
     margin: 0 30px;
+    width: 80%;
     
 }
 
