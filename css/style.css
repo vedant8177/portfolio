@@ -491,11 +491,14 @@ body {
     .about {
         padding: 20px 0;
     }
+    .stacks {
+        justify-content: center;
+    }
     .card_stacks {
         margin: 10px;
     }    
     .card_stacks i{
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
     .contact {
         width: 70%;
