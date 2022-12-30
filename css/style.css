@@ -239,10 +239,15 @@ body {
     align-items: center;
 }
 
+.about_left a {
+    color: #08D9D6;
+    text-decoration: none;
+    outline: none;
+}
+
 .about_right .dev_profile {
     width: 250px;
 }
-
 
 /* stacks */
 .stacks {
@@ -365,22 +370,14 @@ body {
     align-items: center;
     color: var(--fg-color);
     font-family: var(--tirtiary-font);
-    opacity: 0.9;
-    text-align: center;
+    opacity: .9;
     margin-bottom: 30px;
-}
-
-.contact .intro {
-    margin: 10px 0;
 }
 
 .contact_form form{
     display: flex;
     flex-direction: column;
     font-family: var(--primary-color);
-    margin: 0 30px;
-    width: 80%;
-    
 }
 
 .contact_form form input, textarea, .btn_submit {
@@ -390,7 +387,16 @@ body {
     outline: none;
     margin: 5px 0;
     padding: 10px;
-    font-size: 1rem;
+    font-size: .9rem;
+}
+
+.contact_form {
+    margin: 20px 0;
+}
+
+.contact_form form div {
+    display: flex;
+    flex-direction: column;
 }
 
 textarea {
