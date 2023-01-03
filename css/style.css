@@ -377,7 +377,6 @@ body {
 .contact_form form{
     display: flex;
     flex-direction: column;
-    font-family: var(--primary-color);
 }
 
 .contact_form form input, textarea, .btn_submit {
@@ -386,8 +385,9 @@ body {
     border: none;
     outline: none;
     margin: 5px 0;
-    padding: 10px;
-    font-size: .9rem;
+    padding: 15px;
+    font-size: 1rem;
+    font-family: var(--primary-color);
 }
 
 .contact_form {
@@ -410,6 +410,7 @@ textarea {
     color: #08D9D6;
     cursor: pointer;
     transition: .3s all ease;
+    text-transform: uppercase;
 }
 
 .btn_submit:hover, .btn_submit:focus  {
